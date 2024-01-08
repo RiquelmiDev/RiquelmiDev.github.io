@@ -19,7 +19,7 @@
     --quaternary-color: hsl(49 100% 53% / 90%);
     --quinary-color:#cd0232;
     --senary-color:  #0ef;
-    --primary-img:url(../img/hollowli.png);
+    --primary-img:url('../img/hollowli.png');
     --secondary-img:url('../img/cornifer2.png');
     --tamanho-img: 20%,5% ,contain;
     --altura-img: 95% 95%, 10% 95% ;      
@@ -32,7 +32,7 @@
     --quaternary-color:hsl(36 91% 53% / 90%);
     --quinary-color: #ff6000;
     --senary-color: #ff6000; 
-    --primary-img:url(../img/hollowDark.png);
+    --primary-img:url('../img/hollowDark.png');
     --secondary-img:url('../img/Cornifer.png');
     --tamanho-img: 20%,6% ,contain;
     --altura-img: 95% 95%, 10% 96% ;
