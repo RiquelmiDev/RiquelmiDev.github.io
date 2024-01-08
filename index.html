@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfólio</title>
+<!-- ---------------LINKS------------------------- -->
+    <link rel="icon" href="src/img/icone.png" />
+    <link rel="stylesheet" href="src/css/style.css" />
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <script
+  src="https://code.jquery.com/jquery-3.7.1.js"
+  integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+  crossorigin="anonymous"></script>
+
+  </head>
+  <body>
+
+    <header class="header">
+        <a href="https://youtu.be/qzKaTmjNalY?si=EvYu1IOfH5EtkEXs">
+            <img
+            class="imglogo"
+            src="src/img/RSlogoWf.png"
+            alt="rslogo"
+            id="imglogo"/>
+        </a>
+      <div class="navbar" id="myNavbar">
+        <nav class="navbar">
+          <a href="#home" style="--i: 1"><i class="bx bx-home"></i> Home</a>
+          <a href="#sobre" style="--i: 2"><i class="bx bx-help-circle"></i> Sobre</a>
+          <a href="#skilss" style="--i: 3"><i class="bx bx-coffee"></i> Skills</a>
+          <a href="#projetos" style="--i: 4"><i class="bx bx-book-bookmark"></i> Projetos</a>
+          <a href="#contato" style="--i: 5"><i class="bx bx-chat"></i> Contato</a>
+
+          <img src="src/img/moon.png" alt="sun" style="--i: 6" id="iconmode" />
+          <img
+          class="bandicon"
+          src="src/img/estados-unidos.png"
+          alt="lingua"
+          style="--i: 7"
+          id="lingua"
+          />
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+          </a>
+        </nav>
+      </div>
+    </header>
+
+    <section class="home" id="home">
+      <div class="home-conteudo">
+        <div id="textoPortugues">
+          <h1>Opa, eu sou o <span>Riquelmi</span> !</h1>
+          <h4>Desenvolvedor Front End Jr <i class="bx bx-code-block"></i></h4>
+          <p>
+            Progamador Web focado no aprendizado para se tornar um Full Stack.
+          </p>
+        </div>
+        <div id="textoIngles" hidden>
+          <h1>Hey, I'm <span>Riquelmi</span> !</h1>
+          <h4>Junior Front End Developer <i class="bx bx-code-block"></i></h4>
+          <p>Web programmer focused on learning to become a Full Stack.</p>
+        </div>
+        <div class="social-media">
+          <a href="https://www.linkedin.com/in/riquelmi-santos-41a514262/"
+            ><i class="bx bxl-linkedin"></i
+          ></a>
+          <a href="https://www.tiktok.com/@quells_0"
+            ><i class="bx bxl-tiktok"></i
+          ></a>
+          <a href="https://twitter.com/fenixkw1"
+            ><i class="bx bxl-twitter"></i
+          ></a>
+        </div>
+      </div>
+
+      <div class="home-img">
+        <img src="src/img/higuruma.jpg" alt="Riquelmi" />
+      </div>
+    </section>
+
+    <!-- Area do Sobre -->
+
+    <section class="sobre" id="sobre">
+      <div class="sobre-conteudo">
+        <div class="sobre-img">
+          <img src="src/img/higuruma.jpg" alt="Riquelmi" />
+        </div>
+      
+        <div id="textoPortugues2">
+          <h1>Seja <span>Bem Vindo</span>!</h1>
+
+          <p style="--i: 4">
+            <i class="bx bx-ghost bx-spin" style="color: #ff6000"></i>
+            Olá! Meu nome é Riquelmi, é um prazer tê-lo aqui, sou um
+            Desenvolvedor Júnior apaixonado pela criação de soluções inovadoras.
+            Com uma grande curiosidade e um desejo constante de aprender. Sigo
+            no caminho para me tornar um dev Full Stack.
+            <i class="bx bx-ghost bx-spin" style="color: #ff6000"></i>
+          </p>
+          <br />
+          <p style="--i: 5">
+            <i class="bx bx-ghost bx-spin" style="color: #ff6000"></i>
+            Ao longo da minha jornada como Desenvolvedor, tenho explorado
+            diversas linguagens de programação, como JS, Python e PHP
+            (atualmente estudando-as para expandir minhas habilidades). Minhas
+            experiências incluem projetos acadêmicos e pessoais, onde enfrentei
+            desafios, aprendi com eles e cresci como profissional.
+            <i class="bx bx-ghost bx-spin" style="color: #ff6000"></i>
+          </p>
+          <br />
+          <p style="--i: 6">
+            <i class="bx bx-ghost bx-spin" style="color: #ff6000"></i>
+            Gosto muito de ouvir musicas, asistir filmes, series, animes e
+            principalmente jogar, o que amo fazer desde novo, tambem um dos
+            motivos que me levaram a área da programação.
+            <i class="bx bx-ghost bx-spin" style="color: #ff6000"></i>
+          </p>
+        </div>
+
+        <div id="textoIngles2" hidden>
+          <h1>Hey, <span>Welcome</span>!</h1>
+
+          <p style="--i: 4">
+            <i class="bx bx-ghost bx-spin" style="color: #ff6000"></i>
+            Hello! My name is Riquelmi, and it's a pleasure to have you here.
+            I'm a Junior Developer passionate about creating innovative
+            solutions. With a strong curiosity and a constant desire to learn,
+            I'm on the path to becoming a Full Stack developer.
+            <i class="bx bx-ghost bx-spin" style="color: #ff6000"></i>
+          </p>
+          <br />
+          <p style="--i: 5">
+            <i class="bx bx-ghost bx-spin" style="color: #ff6000"></i>
+            Throughout my journey as a developer, I've explored various
+            programming languages, such as Java and PHP (currently studying them
+            to expand my skills). My experiences include academic and personal
+            projects where I faced challenges, learned from them, and grew as a
+            professional.
+            <i class="bx bx-ghost bx-spin" style="color: #ff6000"></i>
+          </p>
+          <br />
+          <p style="--i: 6">
+            <i class="bx bx-ghost bx-spin" style="color: #ff6000"></i>
+            I enjoy listening to music, watching movies, series, anime, and,
+            most importantly, gaming—something I've loved since childhood and
+            one of the reasons I ventured into the programming field.
+            <i class="bx bx-ghost bx-spin" style="color: #ff6000"></i>
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Area do skills -->
+    
+    <section class="skills" id="skilss">
+      <div class="skills-conteudo">
+        <div id="textoPortugues3">
+          <h1>Meus <span>Conhecimentos</span></h1>
+        </div>
+        <div id="textoIngles3" hidden>
+          <h1>My <span>Knowledge</span></h1>
+        </div>
+
+        <div class="linguagens">
+          <div class="iconlinguagens">
+            <img src="src/img/html_icon.png" alt="HTML 5" /> HTML 5
+            <img src="src/img/css_icon.png" alt="CSS" /> CSS
+            <img src="src/img/js_icon.png" alt="JavaScript" /> JavaScript
+            <img src="src/img/bootstrap_icon.png" alt="Bootstrap" />
+            Bootstrap
+            <img src="src/img/jquery_icon.png" alt="jquery" /> Jquery
+            <img src="src/img/php-svgrepo-com.png" alt="PHP" /> PHP
+            <img src="src/img/python-svgrepo-com.png" alt="Python" /> Python
+            <img src="src/img/mysql_icon.png" alt="Mysql" /> Mysql
+            <img src="src/img/adobe-photoshop_icon.png" alt="photoshop" />
+            Photoshop
+            <img
+              src="src/img/adobe-after-effects_icon.png"
+              alt="aftereffects"
+            />
+            AE
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Area do Projetos -->
+    <section class="projetos" id="projetos">
+      <section class="portfolio">
+        <div id="textoPortugues4">
+          <div class="portfolio-conteudo">
+            <h1>Ultimos <span>Projetos</span></h1>
+          </div>
+        </div>
+        <div id="textoIngles4" hidden>
+          <div class="portfolio-conteudo">
+            <h1>Latest <span>Projects</span></h1>
+          </div>
+        </div>
+      </section>
+
+      <div class="container">
+        <!-- card-1-->
+        <div class="cardanimate" style="--i: 4">
+          <div class="card card-1">
+            <div class="card-header">
+              <img src="src/img/fashion.png" class="card-img" />
+            </div>
+
+            <div class="card-body">
+              <div id="textoPortugues5">
+                <h2 class="card-titulo">Loja Online</h2>
+                <p class="card-texto">
+                  Projeto desenvolvido em equipe durante o curso de Programação Web, tendo como referencia sites de compras de roupas como a Zara. Usamos o PHP como principal linguagem para o back-End, além do mysql
+                  como banco de dados.
+                </p>
+              </div>
+
+              <div id="textoIngles5" hidden>
+                <h2 class="card-titulo">Online Store</h2>
+                <p class="card-texto">
+                  Project developed as a team during the Web Programming course, using clothing shopping sites such as Zara as a reference. We use PHP as the main language for the back-end, in addition to mysql as the database.
+                </p>
+              </div>
+            </div>
+
+            <div class="card-footer">
+              <div id="textoPortugues6">
+                <a href="https://github.com/RiquelmiDev/FashionAtacado">Ver Mais</a>
+              </div>
+              <div id="textoIngles6" hidden>
+                <a href="https://github.com/RiquelmiDev/FashionAtacado">View more</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- card-2 -->
+
+        <div class="cardanimate" style="--i: 5">
+          <div class="card card-2">
+            <div class="card-header">
+              <img src="src/img/pokedex.png" class="card-img" />
+            </div>
+
+            <div class="card-body">
+                <div id="textoPortugues7">
+                    <h2 class="card-titulo">Pokédex</h2>
+                    <p class="card-texto">
+                    O projeto da Pokédex foi feito em HTML, CSS e javascript.
+                    Ultilizando uma api chamada PokeApi, o usuario digita um numero
+                    e conforme o numero digitado, determinado pokemon é mostrado em
+                    sua tela.
+                    </p>
+                </div>
+                <div id="textoIngles7" hidden>
+                    <h2 class="card-titulo">Pokédex</h2>
+                    <p class="card-texto">
+                        The Pokédex project was created using HTML, CSS, and JavaScript. Utilizing an API called PokeAPI, the user enters a number, and based on the entered number, a specific Pokémon is displayed on their screen.
+                    </p>
+                </div>
+            </div>
+
+            <div class="card-footer">
+                <div id="textoPortugues8">
+                    <a href="https://github.com/RiquelmiDev/Pokedex_em_html"
+                >Ver Mais</a>
+                </div>
+
+                <div id="textoIngles8" hidden>
+                    <a href="https://github.com/RiquelmiDev/Pokedex_em_html"
+                >View more</a>
+                </div>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="cardanimate" style="--i: 6">
+          <!-- card-3 -->
+
+          <div class="card card-3">
+            <div class="card-header">
+              <img src="src/img/onepieceprojeto2.png" class="card-img" />
+            </div>
+
+            <div class="card-body">
+                <div id="textoPortugues9">
+                    <h2 class="card-titulo">One Piece</h2>
+                    <p class="card-texto">
+                        Projeto simples com HTML, CSS e JavaScript, onde apresenta os
+                        integrantes do bando do Chapeu de Palha, suas historias e seu
+                        papel no bando.
+                    </p>
+                </div>
+
+                <div id="textoIngles9" hidden>
+                    <h2 class="card-titulo">One Piece</h2>
+                    <p class="card-texto">
+                        A simple project using HTML, CSS, and JavaScript, showcasing the members of the Straw Hat Pirates, their stories, and their roles within the crew.
+                    </p>
+                </div>
+            </div>
+
+            <div class="card-footer">
+                <div id="textoPortugues10">
+                    <a href="#">Ver Mais</a>
+                </div>
+
+                <div id="textoIngles10" hidden>
+                    <a href="#">View more</a>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contato" class="contato">
+      <div class="contato-conteudo">
+        <div id="textoPortugues11">
+          <h2>Fale <span>Comigo</span> !</h2>
+        </div>
+        <div id="textoIngles11" hidden>
+          <h2>Contact <span>Me</span> !</h2>
+        </div>
+
+        <form action="#">
+          <div class="input-box">
+
+            <div class="input-field field">
+              <input type="text" placeholder="Nome Completo/Full Name" id="nome" class="item" autocomplete="off">
+
+              <div id="textoPortugues12">
+                <div class="error-txt">Nome completo não pode ficar em branco!</div>
+              </div>
+              <div id="textoIngles12" hidden>
+                <div class="error-txt">The full name can't be left blank!</div>
+              </div>
+
+            </div>
+            <div class="input-field field">
+              <input type="text" placeholder="E-mail" id="email" class="item" autocomplete="off">
+
+              <div id="textoPortugues13">
+                <div class="error-txt email">Endereço de Email não pode ficar em branco!</div>
+              </div>
+              <div id="textoIngles13" hidden>
+                <div class="error-txt email">The E-mail address can't be left blank!</div>
+              </div>
+
+            </div>
+            <div class="input-field field">
+              <input type="text" placeholder="Telefone/Phone" id="numero" class="item" autocomplete="off">
+
+              <div id="textoPortugues14">
+                <div class="error-txt">Numero de Telefone não pode ficar em branco!</div>
+              </div>
+              <div id="textoIngles14" hidden>
+                <div class="error-txt">The Phone Number can't be left blank!</div>
+              </div>
+
+            </div>
+            <div class="input-field field">
+              <input type="text" placeholder="Assunto/Subject" id="assunto" class="item" autocomplete="off">
+
+              <div id="textoPortugues15">
+                <div class="error-txt">Assunto não pode ficar em branco!</div>
+              </div>
+              <div id="textoIngles15" hidden>
+                <div class="error-txt">The Subject can't be left blank!</div>
+              </div>
+            </div>
+
+          </div>
+          <div class="textarea-field field">
+            <textarea name="" id="message" cols="30" rows="10" placeholder="Digite sua Mensagem / Enter your message" class="item" autocomplete="off"></textarea>
+
+            <div id="textoPortugues16">
+              <div class="error-txt">Mensagem não pode ficar em branco!</div>
+            </div>
+            <div id="textoIngles16" hidden>
+              <div class="error-txt">The Message can't be left blank!</div>
+            </div>
+
+          </div>
+
+          <button type="submit">
+            <div id="textoPortugues17">Mandar Mensagem</div>
+            <div id="textoIngles17" hidden>Send Message</div>
+          </button>
+        </form>
+      </div>
+
+    </section>
+
+
+
+    <script>
+        $('.bandicon').click((e) => {
+            var img1 = 'src/img/estados-unidos.png';
+            var img2 = 'src/img/brasil.png';
+            var element = $('#lingua');
+            if(element.attr('src') === img1){
+            element.attr('src',img2);
+            }else if(element.attr('src') === img2){
+            element.attr('src',img1);
+            }
+        });
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="src/js/navbar.js"></script>
+    <script src="src/js/tema.js"></script>
+    <script src="src/js/lingua.js"></script>
+    <script src="src/js/contato.js"></script>
+  </body>
+</html>
